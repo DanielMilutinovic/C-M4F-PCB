@@ -1,4 +1,4 @@
-update=8/8/2019 10:53:49 AM
+update=8/9/2019 3:11:47 PM
 last_client=kicad
 [general]
 version=1
@@ -32,3 +32,13 @@ LibName1=C-M4F
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

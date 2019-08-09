@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:C-M4F-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1522,25 +1523,214 @@ Wire Wire Line
 	4350 3000 4350 3300
 Connection ~ 4350 3300
 $Comp
-L C-M4F:BoosterPackXL_AB J?
+L C-M4F:BoosterPackXL_AB J_1AB
 U 1 1 5E96E99D
-P 11050 3000
-F 0 "J?" H 11050 3667 50  0000 C CNN
-F 1 "BoosterPackXL_AB" H 11050 3576 50  0000 C CNN
-F 2 "" H 11000 3050 50  0001 C CNN
-F 3 "~" H 11000 3050 50  0001 C CNN
-	1    11050 3000
+P 11600 5500
+F 0 "J_1AB" H 11600 6167 50  0000 C CNN
+F 1 "BoosterPackXL_AB" H 11600 6076 50  0000 C CNN
+F 2 "" H 11550 5550 50  0001 C CNN
+F 3 "~" H 11550 5550 50  0001 C CNN
+	1    11600 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-M4F:BoosterPackXL_CD J?
+L C-M4F:BoosterPackXL_CD J_1CD
 U 1 1 5E97183D
-P 12500 3000
-F 0 "J?" H 12500 3667 50  0000 C CNN
-F 1 "BoosterPackXL_CD" H 12500 3576 50  0000 C CNN
-F 2 "" H 11550 3050 50  0001 C CNN
-F 3 "~" H 11550 3050 50  0001 C CNN
-	1    12500 3000
+P 13750 5500
+F 0 "J_1CD" H 13750 6167 50  0000 C CNN
+F 1 "BoosterPackXL_CD" H 13750 6076 50  0000 C CNN
+F 2 "" H 12800 5550 50  0001 C CNN
+F 3 "~" H 12800 5550 50  0001 C CNN
+	1    13750 5500
 	1    0    0    -1  
 $EndComp
+Text GLabel 11200 5050 0    50   Input ~ 0
+3V3
+Text GLabel 11200 5750 0    50   Input ~ 0
+GLCD_SDC
+Text GLabel 11200 5650 0    50   Input ~ 0
+GLCD_SCL
+Text GLabel 11200 5850 0    50   Input ~ 0
+BAT_SCL
+Text GLabel 11200 5950 0    50   Input ~ 0
+BAT_SDA
+Text GLabel 13350 5050 0    50   Input ~ 0
+GLCD_LED_PWM
+Text GLabel 13350 5150 0    50   Input ~ 0
+BAT_INT
+Text GLabel 13350 5250 0    50   Input ~ 0
+BAT_CHA
+Text GLabel 13350 5450 0    50   Input ~ 0
+BAT_EN2
+Text GLabel 13350 5550 0    50   Input ~ 0
+BAT_EN1
+Text GLabel 13350 5650 0    50   Input ~ 0
+BAT_CE
+Text GLabel 13350 5850 0    50   Input ~ 0
+GLCD_RST
+Text GLabel 13350 5950 0    50   Input ~ 0
+GLCD_TOUCH_XN
+Text GLabel 14150 5950 2    50   Input ~ 0
+GLCD_TOUCH_YN
+Text GLabel 14150 5750 2    50   Input ~ 0
+GLCD_SCS
+Text GLabel 14150 5550 2    50   Input ~ 0
+GLCD_SDI
+Text GLabel 14150 5050 2    50   Input ~ 0
+GND
+Text GLabel 12000 5050 2    50   Input ~ 0
+5V
+Text GLabel 12000 5150 2    50   Input ~ 0
+GND
+Text GLabel 12000 5250 2    50   Input ~ 0
+GLCD_TOUCH_YP
+Text GLabel 12000 5350 2    50   Input ~ 0
+GLCD_TOUCH_XP
+Text GLabel 12000 5450 2    50   Input ~ 0
+KEY_COLUMN_0
+Text GLabel 12000 5550 2    50   Input ~ 0
+KEY_COLUMN_1
+Text GLabel 12000 5650 2    50   Input ~ 0
+KEY_COLUMN_2
+Text GLabel 12000 5750 2    50   Input ~ 0
+KEY_COLUMN_3
+Text GLabel 12000 5850 2    50   Input ~ 0
+KEY_COLUMN_4
+Text GLabel 12000 5950 2    50   Input ~ 0
+KEY_COLUMN_5
+Text GLabel 14150 5150 2    50   Input ~ 0
+KEY_ROW_E
+Text GLabel 14150 5250 2    50   Input ~ 0
+KEY_ROW_F
+Text GLabel 14150 5350 2    50   Input ~ 0
+KEY_ROW_G
+Text GLabel 14150 5450 2    50   Input ~ 0
+KEY_ROW_H
+Text GLabel 11200 5150 0    50   Input ~ 0
+KEY_ROW_A
+Text GLabel 11200 5250 0    50   Input ~ 0
+KEY_ROW_B
+Text GLabel 11200 5350 0    50   Input ~ 0
+KEY_ROW_C
+Text GLabel 11200 5450 0    50   Input ~ 0
+KEY_ROW_D
+Wire Wire Line
+	13350 5050 13500 5050
+Wire Wire Line
+	13350 5150 13500 5150
+Wire Wire Line
+	13350 5250 13500 5250
+Wire Wire Line
+	13350 5450 13500 5450
+Wire Wire Line
+	13350 5550 13500 5550
+Wire Wire Line
+	13350 5650 13500 5650
+Wire Wire Line
+	13350 5850 13500 5850
+Wire Wire Line
+	13350 5950 13500 5950
+Wire Wire Line
+	14000 5050 14150 5050
+Wire Wire Line
+	14000 5150 14150 5150
+Wire Wire Line
+	14000 5250 14150 5250
+Wire Wire Line
+	14000 5350 14150 5350
+Wire Wire Line
+	14000 5450 14150 5450
+Wire Wire Line
+	14000 5550 14150 5550
+Wire Wire Line
+	14000 5750 14150 5750
+Wire Wire Line
+	14000 5950 14150 5950
+Wire Wire Line
+	11200 5050 11350 5050
+Wire Wire Line
+	11200 5150 11350 5150
+Wire Wire Line
+	11200 5250 11350 5250
+Wire Wire Line
+	11200 5350 11350 5350
+Wire Wire Line
+	11200 5450 11350 5450
+Wire Wire Line
+	11200 5650 11350 5650
+Wire Wire Line
+	11200 5750 11350 5750
+Wire Wire Line
+	11200 5850 11350 5850
+Wire Wire Line
+	11200 5950 11350 5950
+Wire Wire Line
+	11850 5050 12000 5050
+Wire Wire Line
+	11850 5150 12000 5150
+Wire Wire Line
+	11850 5250 12000 5250
+Wire Wire Line
+	11850 5350 12000 5350
+Wire Wire Line
+	11850 5450 12000 5450
+Wire Wire Line
+	11850 5550 12000 5550
+Wire Wire Line
+	11850 5650 12000 5650
+Wire Wire Line
+	11850 5750 12000 5750
+Wire Wire Line
+	11850 5850 12000 5850
+Wire Wire Line
+	11850 5950 12000 5950
+NoConn ~ 14000 5650
+NoConn ~ 13500 5750
+NoConn ~ 13500 5350
+NoConn ~ 11350 5550
+$Comp
+L power:GND #PWR?
+U 1 1 5DD1A3DB
+P 11500 3500
+F 0 "#PWR?" H 11500 3250 50  0001 C CNN
+F 1 "GND" H 11505 3327 50  0000 C CNN
+F 2 "" H 11500 3500 50  0001 C CNN
+F 3 "" H 11500 3500 50  0001 C CNN
+	1    11500 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 11600 3500 2    50   Input ~ 0
+GND
+Text GLabel 11600 3200 2    50   Input ~ 0
+3V3
+Text GLabel 11600 2900 2    50   Input ~ 0
+5V
+$Comp
+L power:+5V #PWR?
+U 1 1 5DD1D528
+P 11500 2900
+F 0 "#PWR?" H 11500 2750 50  0001 C CNN
+F 1 "+5V" H 11515 3073 50  0000 C CNN
+F 2 "" H 11500 2900 50  0001 C CNN
+F 3 "" H 11500 2900 50  0001 C CNN
+	1    11500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DD1E3BE
+P 11500 3200
+F 0 "#PWR?" H 11500 3050 50  0001 C CNN
+F 1 "+3.3V" H 11515 3373 50  0000 C CNN
+F 2 "" H 11500 3200 50  0001 C CNN
+F 3 "" H 11500 3200 50  0001 C CNN
+	1    11500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11600 3500 11500 3500
+Wire Wire Line
+	11600 3200 11500 3200
+Wire Wire Line
+	11600 2900 11500 2900
 $EndSCHEMATC
