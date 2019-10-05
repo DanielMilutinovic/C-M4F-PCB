@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "C-M4f Key Pad"
-Date "2019-10-04"
+Date "2019-10-05"
 Rev "RevA"
 Comp "Dirk Heisswolf"
 Comment1 ""
@@ -1632,7 +1632,6 @@ NoConn ~ 11350 5050
 Text Notes 12000 5075 0    50   ~ 0
 5V
 NoConn ~ 11850 5050
-NoConn ~ 10800 4075
 Wire Wire Line
 	6650 7850 7700 7850
 Wire Wire Line
